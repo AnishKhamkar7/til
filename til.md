@@ -2,3 +2,9 @@
 
 - I learnt about that you can use console.time and console.timeEnd to measure how much time a function actually took
 - I learnt about types of RAM and what actually is AMD and intel. So I have difficulty in assessing these PC hardware things well it still is for me. But Today I gave a researched requirement for a real problem and can potentially work on it
+- I learnt about Stack and Heap memory difference and also where can both be use  
+  - So as far as I have learnt, Stack is like a automatic generated frames where a new stack is created whenever a function is executed and returns something then the stack is cleared automatically 
+  - But that for the heap its a more persistent memory which can store the value and the stack which is created for that function stores the pointer of that value where where the value is stored inside the heap memory
+  - There are 3 risks while dealing with heap memory which are 1. Dangling Pointers- where the pointer is freee yet the pointer is being accessed. 2. Memory fragmenetation- Its where the memory has space for storing but the allocated memory us not continuous and may again lead to failure. 3. Memory Leak-  its where the clean up is not handled / pointers are lost which leads to value still being allocated to the heap memory which leads to memory leak.
+  - There is one risk while dealing with stack memory which is Stack Overflow -  where the function are infinitely / recusion which leads to creating more frames of stack and execedding the memory overflow 
+
